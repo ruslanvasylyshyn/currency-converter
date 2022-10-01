@@ -1,0 +1,19 @@
+.currencyConverter-wrapper input {
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 8px;
+    border-radius: 3px;
+    border: 1px solid #d0a24c;
+    outline: none;
+    font-weight: 700;
+    color: #d0a24c;
+}
+
+.currencyConverter-wrapper select {
+    height: 24px;
+    border-radius: 3px;
+    border: 1px solid #d0a24c;
+    outline: none;
+    font-weight: 700;
+    color: #d0a24c;
+}

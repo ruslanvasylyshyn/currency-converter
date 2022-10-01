@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #fee3af;
+  color: #FFF;
+}
+
+.currencyRates {
+  margin: 0 auto 30px;
+  padding-top: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.currencyConverter-header {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.currencyEqual {
+  color: #FFF;
+  font-size: 30px;
+}
+
+.currencyRates-notAvailable {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .currencyRates {
+    width: 100%;
+  }
+}
